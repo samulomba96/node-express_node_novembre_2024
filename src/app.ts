@@ -105,4 +105,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction ) =>{
 app.listen(port, () => {
     console.log(`Server in esecuzione su http://localhost:${port}`);
     console.log("Premere CTRL+C per arrestare");
-})
+}) 
